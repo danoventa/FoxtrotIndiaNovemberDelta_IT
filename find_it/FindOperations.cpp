@@ -1,3 +1,9 @@
+/*
+	This class will have all of the operations that will be run through the main 
+	program. Will also store any variables that will be needed in any of the 
+	other functinos in this Class. May or may not use the AdditionalAid class. 
+*/
+
 #include "FindOperations.h"
 
 FindOperations::FindOperations()
