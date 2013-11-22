@@ -29,7 +29,7 @@ int main (int argc, char **argv)
 
 	vector<string> doop_v = arch->ParseThroughCommandLine();
 
-	for (int i = 1; i < doop_v.size(); ++i)
+	for (int i = 1; i <= doop_v.size(); ++i)
 	{
 		switch (atoi(doop_v[i].c_str()))
 		{
